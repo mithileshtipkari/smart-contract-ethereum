@@ -1,0 +1,22 @@
+{
+  "name": "smart-contract-ethereum",
+  "version": "1.0.0",
+  "description": "This project is used to build, test and deploy smart contracts on Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithileshtipkari/smart-contract-ethereum.git"
+  },
+  "author": "Mithilesh Tipkari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mithileshtipkari/smart-contract-ethereum/issues"
+  },
+  "homepage": "https://github.com/mithileshtipkari/smart-contract-ethereum#readme",
+  "dependencies": {
+    "solc": "^0.4.17"
+  }
+}
