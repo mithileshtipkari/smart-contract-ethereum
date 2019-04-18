@@ -4,7 +4,7 @@
   "description": "This project is used to build, test and deploy smart contracts on Ethereum Blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/mithileshtipkari/smart-contract-ethereum#readme",
   "dependencies": {
-    "solc": "^0.4.17"
+    "ganache-cli": "^6.4.2",
+    "mocha": "^6.1.2",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.35"
   }
 }
